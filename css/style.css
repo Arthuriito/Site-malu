@@ -12,6 +12,9 @@
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
 }
+:root{
+  --main-bg-color: rgb(18, 245, 105);
+}
 
 html {
   font-size: 62.5%;
@@ -219,7 +222,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 60vh;
+  min-height: 90vh;
   padding: 2rem 7%;
   background-size: cover !important;
   background-position: center !important;
@@ -819,6 +822,10 @@ section {
   color: #12CBC4;
 }
 
+.footer {
+  background: #f9f9f9;
+}
+
 .footer .box-container {
   display: -ms-grid;
   display: grid;
@@ -829,8 +836,15 @@ section {
 
 .footer .box-container .box h3 {
   font-size: 2.2rem;
-  color: #333;
+  color: black;
   padding: 1rem 0;
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  color: #666;
+  padding: 1rem 0;
+  line-height: 2;
 }
 
 .footer .box-container .box a {
@@ -838,6 +852,11 @@ section {
   font-size: 1.4rem;
   color: #666;
   padding: 1rem 0;
+}
+
+.footer .box-container .box a i {
+  padding-right: .5rem;
+  color: #12CBC4;
 }
 
 .footer .box-container .box a:hover {
@@ -848,39 +867,56 @@ section {
   padding-right: 2rem;
 }
 
-.footer .box-container .box a i {
-  color: #12CBC4;
-  padding-right: .5rem;
+.footer .share {
+  padding-top: 2rem;
+  text-align: center;
 }
 
-.footer .box-container .box p {
-  font-size: 1.5rem;
-  color: #666;
-  margin-bottom: 1rem;
+.footer .share a {
+  font-size: 2rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  background: black;
+  color: #fff;
+  margin: .3rem;
 }
 
-.footer .box-container .box form input[type="email"] {
-  width: 100%;
-  padding: 1rem 1.2rem;
-  border-radius: .5rem;
-  background: #eee;
-  font-size: 1.6rem;
-  text-transform: none;
-  margin: .5rem 0;
+.footer .share a:hover {
+  background: #12CBC4;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .footer .credit {
-  text-align: center;
-  padding: 1rem;
-  padding-top: 2.5rem;
   margin-top: 2.5rem;
-  font-size: 2rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
+  text-align: center;
   color: #666;
-  border-top: 0.2rem solid #333;
+  font-size: 1.5rem;
 }
 
 .footer .credit span a{
   color: #12CBC4;
+  padding: 5px;
+}
+
+.footer .credit span a:hover{
+  color: white;
+  background-color: #12CBC4;
+}
+
+.footer .credit span1 a{
+  color: purple;
+  padding: 5px;
+}
+
+.footer .credit span1 a:hover{
+  color: white;
+  background-color: purple;
 }
 
 @media (max-width: 1200px) {
