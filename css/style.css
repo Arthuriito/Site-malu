@@ -13,7 +13,7 @@
   transition: all .2s linear;
 }
 :root{
-  --main-bg-color: rgb(18, 245, 105);
+  --main-bg-color: rgb(18, 245, 245);
 }
 
 html {
@@ -27,7 +27,7 @@ section {
 
 .heading {
   text-align: center;
-  background: #12CBC4;
+  background: var(--main-bg-color) ;
 }
 
 .heading h1 {
@@ -147,7 +147,7 @@ section {
 
 .header .icons div:hover,
 .header .icons a:hover {
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .header .search-form {
@@ -190,7 +190,7 @@ section {
 }
 
 .header .search-form label:hover {
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 #menu-btn {
@@ -240,7 +240,7 @@ section {
 }
 
 .home .slide .content span {
-  color: #333;
+  color: var(--main-bg-color);
   display: block;
   font-size: 2rem;
   -webkit-animation: fadeIn .4s linear .2s backwards;
@@ -248,7 +248,7 @@ section {
 }
 
 .home .slide .content h3 {
-  color: #333;
+  color: var(--main-bg-color);
   text-transform: uppercase;
   padding: 1rem 0;
   font-size: 6rem;
@@ -270,9 +270,8 @@ section {
   width: 6rem;
   line-height: 5.5rem;
   font-size: 4rem;
-  color: #333;
-  border: 0.2rem solid #333;
-  background: #fff;
+  color: var(--main-bg-color);
+  background: #333;
   border-radius: .5rem;
   cursor: pointer;
   text-align: center;
@@ -280,8 +279,8 @@ section {
 
 .home #next-slide:hover,
 .home #prev-slide:hover {
-  background: #333;
-  color: #fff;
+  background: var(--main-bg-color);
+  color: #333;
 }
 
 .home #prev-slide {
@@ -411,7 +410,7 @@ section {
 
 .products .box-container .box .content .stars i {
   font-size: 1.4rem;
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .products .box-container .box .content .price {
@@ -577,12 +576,12 @@ section {
 }
 
 .blogs .box-container .box .content .icons a:hover {
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .blogs .box-container .box .content .icons a i {
   padding-right: .5rem;
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .contact .row {
@@ -705,7 +704,7 @@ section {
 
 .login-form form .flex a:hover,
 .register-form form .flex a:hover {
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .login-form form input[type="submit"],
@@ -716,7 +715,7 @@ section {
 
 .login-form form input[type="submit"]:hover,
 .register-form form input[type="submit"]:hover {
-  background: #12CBC4;
+  background: var(--main-bg-color);
 }
 
 .login-form form .btn,
@@ -757,7 +756,7 @@ section {
 }
 
 .shopping-cart .box-container .box .fa-times:hover {
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .shopping-cart .box-container .box img {
@@ -819,7 +818,7 @@ section {
 }
 
 .shopping-cart .cart-total h3 span {
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .footer {
@@ -856,11 +855,11 @@ section {
 
 .footer .box-container .box a i {
   padding-right: .5rem;
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .footer .box-container .box a:hover {
-  color: #12CBC4;
+  color: var(--main-bg-color);
 }
 
 .footer .box-container .box a:hover i {
@@ -884,7 +883,7 @@ section {
 }
 
 .footer .share a:hover {
-  background: #12CBC4;
+  background: var(--main-bg-color);
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
 }
@@ -900,13 +899,13 @@ section {
 }
 
 .footer .credit span a{
-  color: #12CBC4;
+  color: var(--main-bg-color);
   padding: 5px;
 }
 
 .footer .credit span a:hover{
   color: white;
-  background-color: #12CBC4;
+  background-color: var(--main-bg-color);
 }
 
 .footer .credit span1 a{
