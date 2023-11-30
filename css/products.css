@@ -17,7 +17,9 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
-
+:root{
+  --main-bg-color: rgb(18, 245, 245);
+}
 section {
   padding: 2rem 9%;
 }
@@ -1140,6 +1142,8 @@ section {
 #prodetails .single-pro-details button{
     background: var(--main-bg-color);
     color: #fff;
+    width: 10vh;
+    height: 5vh;
 }
 
 #prodetails .single-pro-details span{

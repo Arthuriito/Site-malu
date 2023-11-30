@@ -63,16 +63,16 @@ section {
   margin-top: 1rem;
   padding: .8rem 2.8rem;
   font-size: 1.7rem;
-  color: #333;
-  border: 0.2rem solid #333;
+  color: #fff;
+  border: 0.2rem solid #fff;
   background: none;
   cursor: pointer;
   border-radius: .5rem;
 }
 
 .btn:hover {
-  background: #333;
-  color: #fff;
+  background: #fff;
+  color: var(--main-bg-color);
 }
 
 .header {
@@ -324,12 +324,12 @@ section {
 
 .banner .box .content span {
   font-size: 1.5rem;
-  color: #333;
+  color: #fff;
 }
 
 .banner .box .content h3 {
   font-size: 2rem;
-  color: #333;
+  color: #fff;
   padding-top: 1rem;
 }
 
@@ -349,7 +349,8 @@ section {
 .products .box-container .box {
   border-radius: .5rem;
   text-align: center;
-  border: 0.2rem solid #333;
+  border: 0.2rem solid #fff;
+  color: #fff;
 }
 
 .products .box-container .box:hover .image .icons {
